@@ -468,7 +468,6 @@ body{
   -reset.css
   -check code files through online error checker*/
   font-size: 16px;
-  margin: 0;
   color:#2d2d2d;
 }
 
@@ -515,6 +514,10 @@ nav ul {
 
 nav li {
   list-style-type: none;
+}
+
+nav a:hover {
+  color: #e2574c;
 }
 
 .nav-link {
@@ -575,6 +578,7 @@ button {
   justify-content: center;
   width: 120px
 }
+
 
 .hero-cta {
   color: #FFF;
@@ -637,6 +641,10 @@ article img {
   line-height: 25px;
 }
 
+article a {
+  color: #e2574c;
+}
+
 
 table {
   width: 600px;
@@ -667,9 +675,10 @@ article iframe {
 }
 
 footer {
-  background-color: black;
+  background-color: #242424;
   color: white;
   width: 100%;
+  height: 260px;
   display:flex;
   justify-content: space-between;
   align-items: center;
@@ -685,6 +694,22 @@ footer a {
   font-family: KarlaRegular;
   line-height: 30px;
   word-spacing: 12px;
+}
+
+footer ul {
+  margin-left: 500px;
+}
+
+footer a:hover {
+  color: #e2574c;
+}
+
+.footer-copy a {
+  text-decoration: underline;
+}
+
+.address-text {
+  color: #646464;
 }
 
 footer p {
