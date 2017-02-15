@@ -1,0 +1,229 @@
+body{
+  /*best to use rem
+  To calculate % for containers: Use the "target(ideal px measurement of item) ÷ context (size of parent container) = result" formula!
+  ex. 560.960 x100
+  em- is x amount the size of the body
+  -reset.css
+  -check code files through online error checker*/
+  font-size: 16px;
+  margin: 0;
+  color:#2d2d2d;
+}
+
+header {
+ background:
+    linear-gradient(45deg,
+        rgba(0, 0, 0, 0.1),
+        rgba(0, 0, 0, 0.55)
+      ),
+    url(images/kayak-bkgd.jpg);
+  background-size: cover;
+  height: 500px;
+  background-size: 100% auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-repeat: no-repeat;
+
+}
+
+nav {
+  /*background-image: url("images/perfect-paddles-logo.svg");*/
+  /*list-style-type: none;*/
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  background-color: black;
+  position: fixed;
+  top:0;
+  width:100%
+}
+
+nav img {
+  width:180px;
+  margin-left: 20px;
+
+}
+
+nav ul {
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav li {
+  list-style-type: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #FFF;
+  font-family: KarlaBold;
+  text-transform: uppercase;
+  font-size: .8em;
+}
+
+.hero-text {
+  text-align: center;
+  color: #FFF;
+  line-height: 30px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-text-initial {
+  font-family: KarlaRegular;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-family: Pacifico;
+  font-size: 6em;
+  text-shadow: .5px .5px #0D0A14;
+  letter-spacing: 2px;
+}
+
+.hero-subheader {
+  font-family: Pacifico;
+  font-size: 2.5em;
+  text-shadow: .5px .5px #0D0A14;
+  letter-spacing: 2px;
+  color: #FFF;
+}
+
+.hero-caption {
+  font-family: KarlaREgular;
+  background-color:rgba(22, 20, 25, 0.76);
+  padding: .25px 5px;
+  margin-left: 310px;
+  margin-right: 310px;
+}
+
+button {
+  background-color: #e2574c;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  width: 120px
+}
+
+.hero-cta {
+  color: #FFF;
+  text-decoration: none;
+  font-family: KarlaRegular;
+  text-transform: uppercase;
+  font-size: 1.2em;
+}
+
+p {
+  font-family: KarlaRegular;
+  text-align: center;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  font-family: Pacifico;
+  font-size: 3em;
+  color: #646464;
+  text-align: center;
+}
+
+.about-text {
+  letter-spacing: .2px;
+  line-height: 30px;
+  margin-left: 180px;
+  margin-right: 180px;
+}
+
+.content-images {
+  display: flex;
+  justify-content: space-around;
+}
+
+article img {
+  width: 30%;
+  height:250px;
+  border: outset;
+}
+
+.rentals-items-parent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rentals-text {
+  display: flex;
+  flex-direction: column;
+  line-height: .3px;
+}
+
+.rentals-copy {
+  text-align: left;
+  margin-left: 25px;
+  margin-right: 60px;
+  line-height: 25px;
+}
+
+table {
+width: 600px;
+}
+
+table, tr, th, td {
+  border-style: solid;
+  border-width: thin;
+  border-color: #c8c8c8;
+  border-collapse: collapse;
+  font-family: KarlaRegular;
+}
+
+th, td {
+  height: 45px;
+}
+
+th {
+  background-color: #e6e6e6;
+}
+
+article iframe {
+  width: 93%;
+  height: 300px;
+  border: none;
+  margin-left: 35px;
+  margin-bottom: 35px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  width: 100%;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer li {
+  list-style-type: none;
+}
+
+footer a {
+  color:white;
+  text-decoration: none;
+  font-family: KarlaRegular;
+  line-height: 30px;
+  word-spacing: 12px;
+}
+
+footer p {
+  text-align: left;
+  margin-left: 25px;
+}
