@@ -480,7 +480,7 @@ header {
       ),
     url(images/kayak-bkgd.jpg);
   background-size: cover;
-  height: 500px;
+  height: 550px;
   background-size: 100% auto;
   width: 100%;
   display: flex;
@@ -540,6 +540,7 @@ nav li {
   text-transform: uppercase;
   display: flex;
   justify-content: center;
+  margin-top: 30px;
 }
 
 h1 {
@@ -580,7 +581,7 @@ button {
   text-decoration: none;
   font-family: KarlaRegular;
   text-transform: uppercase;
-  font-size: 1.2em;
+  font-size: .9em;
 }
 
 p {
