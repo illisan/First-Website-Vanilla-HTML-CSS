@@ -622,24 +622,21 @@ article img {
 .rentals-items-parent {
   display: flex;
   justify-content: space-between;
+  margin: 0 15px;
 }
 
 .rentals-text {
-  display: flex;
-  flex-direction: column;
-  line-height: .3px;
+  width: 50%;
 }
 
 .rentals-copy {
   text-align: left;
-  margin-left: 25px;
-  margin-right: 60px;
   line-height: 25px;
 }
 
 
 table {
-  width: 600px;
+  width: 50%;
 }
 
 table, tr, th, td {
