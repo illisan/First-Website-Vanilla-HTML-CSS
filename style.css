@@ -464,13 +464,12 @@ body{
   /*best to use rem
   To calculate % for containers: Use the "target(ideal px measurement of item) ÷ context (size of parent container) = result" formula!
   ex. 560.960 x100
-  em- is x amount the size of the body
-  -reset.css
-  -check code files through online error checker*/
-  font-size: 16px;
-  margin: 0;
+  em- is x amount the size of the body*/
+  font-size: 1rem;
   color:#2d2d2d;
+  height: 100%;
 }
+
 
 header {
  background:
@@ -480,7 +479,7 @@ header {
       ),
     url(images/kayak-bkgd.jpg);
   background-size: cover;
-  height: 550px;
+  height: 40%;
   background-size: 100% auto;
   width: 100%;
   display: flex;
@@ -494,7 +493,7 @@ nav {
   /*list-style-type: none;*/
   display: flex;
   justify-content: space-between;
-  height: 50px;
+  height: 8%;
   background-color: black;
   position: fixed;
   top:0;
@@ -502,9 +501,8 @@ nav {
 }
 
 nav img {
-  width:180px;
-  margin-left: 20px;
-
+  width:18%;
+  margin-left: 2%;
 }
 
 nav ul {
@@ -517,18 +515,22 @@ nav li {
   list-style-type: none;
 }
 
+nav a:hover {
+  color: #e2574c;
+}
+
 .nav-link {
   text-decoration: none;
   color: #FFF;
   font-family: KarlaBold;
   text-transform: uppercase;
-  font-size: .8em;
+  font-size: .86rem;
 }
 
 .hero-text {
   text-align: center;
   color: #FFF;
-  line-height: 30px;
+  line-height: 100%;
   display:flex;
   flex-direction: column;
   justify-content: center;
@@ -540,40 +542,40 @@ nav li {
   text-transform: uppercase;
   display: flex;
   justify-content: center;
-  margin-top: 30px;
+  margin-top: 10%;
 }
 
 h1 {
   font-family: Pacifico;
-  font-size: 6em;
-  text-shadow: .5px .5px #0D0A14;
-  letter-spacing: 2px;
+  font-size: 6.5rem;
+  text-shadow: .05rem .03rem #DAD6D6;
+  letter-spacing: .4rem;
 }
 
 .hero-subheader {
   font-family: Pacifico;
-  font-size: 2.5em;
-  text-shadow: .5px .5px #0D0A14;
-  letter-spacing: 2px;
+  font-size: 2.5rem;
+  text-shadow: .05rem .03rem #DAD6D6;
+  letter-spacing: .2rem;
   color: #FFF;
 }
 
 .hero-caption {
   font-family: KarlaREgular;
   background-color:rgba(22, 20, 25, 0.76);
-  padding: .25px 5px;
-  margin-left: 310px;
-  margin-right: 310px;
+  padding: 1% .13%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 button {
   background-color: #e2574c;
   border: none;
-  padding: 12px 18px;
-  border-radius: 25px;
+  padding: 2% 2.5%;
+  border-radius: 1.5rem;
   display: flex;
   justify-content: center;
-  width: 120px
+  width: 18%;
 }
 
 .hero-cta {
@@ -581,7 +583,6 @@ button {
   text-decoration: none;
   font-family: KarlaRegular;
   text-transform: uppercase;
-  font-size: .9em;
 }
 
 p {
@@ -596,16 +597,17 @@ section {
 
 h2 {
   font-family: Pacifico;
-  font-size: 3em;
+  font-size: 2.5rem;
   color: #646464;
   text-align: center;
 }
 
 .about-text {
-  letter-spacing: .2px;
-  line-height: 30px;
-  margin-left: 180px;
-  margin-right: 180px;
+  letter-spacing: .02rem;
+  line-height: 2rem;
+  margin-left: 13rem;
+  margin-right: 13rem;
+  text-align: center;
 }
 
 .content-images {
@@ -615,28 +617,56 @@ h2 {
 
 article img {
   width: 30%;
-  height:250px;
-  border: outset;
+  height:35%;
+  box-shadow: 3px 3px 3px #888888;
 }
 
 .rentals-items-parent {
   display: flex;
   justify-content: space-between;
+<<<<<<< HEAD
   margin: 0 15px;
 }
 
 .rentals-text {
   width: 50%;
+=======
+  margin: 0 2rem;
+}
+
+.rentals-text {
+<<<<<<< HEAD
+  width:50%;
+  line-height: .3px;
+=======
+  width: 50%;
+>>>>>>> master
+>>>>>>> gh-pages
 }
 
 .rentals-copy {
   text-align: left;
+<<<<<<< HEAD
   line-height: 2.2rem;
+=======
+  line-height: 25px;
+>>>>>>> gh-pages
+}
+
+.rentals-copy a {
+  color: #e2574c;
 }
 
 
 table {
   width: 50%;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> master
+>>>>>>> gh-pages
 }
 
 table, tr, th, td {
@@ -645,10 +675,21 @@ table, tr, th, td {
   border-color: #c8c8c8;
   border-collapse: collapse;
   font-family: KarlaRegular;
+  padding-left: 10px;
+
+}
+
+td {
+  text-align: center;
+}
+
+.first-column {
+  text-align: left;
 }
 
 th, td {
   height: 45px;
+  width: 156px;
 }
 
 th {
@@ -664,12 +705,15 @@ article iframe {
 }
 
 footer {
-  background-color: black;
+  background-color: #242424;
   color: white;
   width: 100%;
+  height: 260px;
   display:flex;
   justify-content: space-between;
   align-items: center;
+  word-spacing: 2.5px;
+  margin: 0 15px;
 }
 
 footer li {
@@ -681,10 +725,28 @@ footer a {
   text-decoration: none;
   font-family: KarlaRegular;
   line-height: 30px;
-  word-spacing: 12px;
+}
+
+footer ul {
+  margin-left: 500px;
+}
+
+footer ul a:hover {
+  color: #e2574c;
+}
+
+.contact-email {
+  text-decoration: underline;
+}
+
+div p a:hover {
+  color: #e2574c;
+}
+
+.address-text {
+  color: #646464;
 }
 
 footer p {
   text-align: left;
-  margin-left: 25px;
 }
