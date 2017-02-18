@@ -624,49 +624,25 @@ article img {
 .rentals-items-parent {
   display: flex;
   justify-content: space-between;
-<<<<<<< HEAD
-  margin: 0 15px;
+  margin: 0 1rem;
 }
 
 .rentals-text {
   width: 50%;
-=======
-  margin: 0 2rem;
-}
-
-.rentals-text {
-<<<<<<< HEAD
-  width:50%;
-  line-height: .3px;
-=======
-  width: 50%;
->>>>>>> master
->>>>>>> gh-pages
+  margin-top: -1.3rem;
 }
 
 .rentals-copy {
   text-align: left;
-<<<<<<< HEAD
-  line-height: 2.2rem;
-=======
-  line-height: 25px;
->>>>>>> gh-pages
+  line-height: 1.8rem;
 }
 
 .rentals-copy a {
   color: #e2574c;
 }
 
-
 table {
   width: 50%;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> master
->>>>>>> gh-pages
 }
 
 table, tr, th, td {
@@ -675,7 +651,7 @@ table, tr, th, td {
   border-color: #c8c8c8;
   border-collapse: collapse;
   font-family: KarlaRegular;
-  padding-left: 10px;
+  padding-left: .5rem;
 
 }
 
@@ -688,8 +664,8 @@ td {
 }
 
 th, td {
-  height: 45px;
-  width: 156px;
+  height: 2.81rem;
+  width: 9.75rem;
 }
 
 th {
@@ -698,21 +674,21 @@ th {
 
 article iframe {
   width: 93%;
-  height: 300px;
+  height: 18.75rem;
   border: none;
-  margin-left: 35px;
-  margin-bottom: 35px;
+  margin-left: 2.187rem;
+  margin-bottom: 2.187rem;
 }
 
 footer {
   background-color: #242424;
   color: white;
   width: 100%;
-  height: 260px;
+  height: 16.25rem;
   display:flex;
   justify-content: space-between;
   align-items: center;
-  word-spacing: 2.5px;
+  word-spacing: 0.16rem;
   margin: 0 15px;
 }
 
@@ -724,11 +700,11 @@ footer a {
   color:white;
   text-decoration: none;
   font-family: KarlaRegular;
-  line-height: 30px;
+  line-height: 1.875rem;
 }
 
 footer ul {
-  margin-left: 500px;
+  margin-left: 31.25rem;
 }
 
 footer ul a:hover {
