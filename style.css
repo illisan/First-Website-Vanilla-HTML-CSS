@@ -624,6 +624,7 @@ article img {
 .rentals-items-parent {
   display: flex;
   justify-content: space-between;
+<<<<<<< HEAD
   margin: 0 2rem;
 }
 
@@ -634,11 +635,22 @@ article img {
 =======
   width: 50%;
 >>>>>>> master
+=======
+  margin: 0 15px;
+}
+
+.rentals-text {
+  width: 50%;
+>>>>>>> master
 }
 
 .rentals-copy {
   text-align: left;
+<<<<<<< HEAD
   line-height: 25px;
+=======
+  line-height: 2.2rem;
+>>>>>>> master
 }
 
 .rentals-copy a {
@@ -649,7 +661,10 @@ article img {
 table {
   width: 50%;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
 =======
 >>>>>>> master
 }
