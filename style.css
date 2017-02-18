@@ -624,17 +624,41 @@ article img {
 .rentals-items-parent {
   display: flex;
   justify-content: space-between;
+<<<<<<< HEAD
   margin: 0 1rem;
+=======
+<<<<<<< HEAD
+  margin: 0 2rem;
+>>>>>>> gh-pages
 }
 
 .rentals-text {
   width: 50%;
+<<<<<<< HEAD
   margin-top: -1.3rem;
+=======
+>>>>>>> master
+=======
+  margin: 0 15px;
+}
+
+.rentals-text {
+  width: 50%;
+>>>>>>> master
+>>>>>>> gh-pages
 }
 
 .rentals-copy {
   text-align: left;
+<<<<<<< HEAD
   line-height: 1.8rem;
+=======
+<<<<<<< HEAD
+  line-height: 25px;
+=======
+  line-height: 2.2rem;
+>>>>>>> master
+>>>>>>> gh-pages
 }
 
 .rentals-copy a {
@@ -643,6 +667,16 @@ article img {
 
 table {
   width: 50%;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+>>>>>>> master
+=======
+>>>>>>> master
+>>>>>>> gh-pages
 }
 
 table, tr, th, td {
