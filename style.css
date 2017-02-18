@@ -465,8 +465,9 @@ body{
   To calculate % for containers: Use the "target(ideal px measurement of item) ÷ context (size of parent container) = result" formula!
   ex. 560.960 x100
   em- is x amount the size of the body*/
-  font-size: 16px;
+  font-size: 1rem;
   color:#2d2d2d;
+  height: 100%;
 }
 
 
@@ -478,7 +479,7 @@ header {
       ),
     url(images/kayak-bkgd.jpg);
   background-size: cover;
-  height: 550px;
+  height: 40%;
   background-size: 100% auto;
   width: 100%;
   display: flex;
@@ -492,7 +493,7 @@ nav {
   /*list-style-type: none;*/
   display: flex;
   justify-content: space-between;
-  height: 50px;
+  height: 8%;
   background-color: black;
   position: fixed;
   top:0;
@@ -500,9 +501,8 @@ nav {
 }
 
 nav img {
-  width:180px;
-  margin-left: 20px;
-
+  width:18%;
+  margin-left: 2%;
 }
 
 nav ul {
@@ -524,13 +524,13 @@ nav a:hover {
   color: #FFF;
   font-family: KarlaBold;
   text-transform: uppercase;
-  font-size: .8em;
+  font-size: .86rem;
 }
 
 .hero-text {
   text-align: center;
   color: #FFF;
-  line-height: 30px;
+  line-height: 100%;
   display:flex;
   flex-direction: column;
   justify-content: center;
@@ -542,49 +542,47 @@ nav a:hover {
   text-transform: uppercase;
   display: flex;
   justify-content: center;
-  margin-top: 30px;
+  margin-top: 10%;
 }
 
 h1 {
   font-family: Pacifico;
-  font-size: 6em;
-  text-shadow: .5px .5px #0D0A14;
-  letter-spacing: 2px;
+  font-size: 6.5rem;
+  text-shadow: .05rem .03rem #DAD6D6;
+  letter-spacing: .4rem;
 }
 
 .hero-subheader {
   font-family: Pacifico;
-  font-size: 2.5em;
-  text-shadow: .5px .5px #0D0A14;
-  letter-spacing: 2px;
+  font-size: 2.5rem;
+  text-shadow: .05rem .03rem #DAD6D6;
+  letter-spacing: .2rem;
   color: #FFF;
 }
 
 .hero-caption {
   font-family: KarlaREgular;
   background-color:rgba(22, 20, 25, 0.76);
-  padding: .25px 5px;
-  margin-left: 310px;
-  margin-right: 310px;
+  padding: 1% .13%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 button {
   background-color: #e2574c;
   border: none;
-  padding: 12px 18px;
-  border-radius: 25px;
+  padding: 2% 2.5%;
+  border-radius: 1.5rem;
   display: flex;
   justify-content: center;
-  width: 120px
+  width: 18%;
 }
-
 
 .hero-cta {
   color: #FFF;
   text-decoration: none;
   font-family: KarlaRegular;
   text-transform: uppercase;
-  font-size: .9em;
 }
 
 p {
@@ -599,16 +597,17 @@ section {
 
 h2 {
   font-family: Pacifico;
-  font-size: 3em;
+  font-size: 2.5rem;
   color: #646464;
   text-align: center;
 }
 
 .about-text {
-  letter-spacing: .2px;
-  line-height: 30px;
-  margin-left: 180px;
-  margin-right: 180px;
+  letter-spacing: .02rem;
+  line-height: 2rem;
+  margin-left: 13rem;
+  margin-right: 13rem;
+  text-align: center;
 }
 
 .content-images {
@@ -618,19 +617,23 @@ h2 {
 
 article img {
   width: 30%;
-  height:250px;
-  border: outset;
+  height:35%;
+  box-shadow: 3px 3px 3px #888888;
 }
 
 .rentals-items-parent {
   display: flex;
   justify-content: space-between;
-  margin: 0 15px;
+  margin: 0 2rem;
 }
 
 .rentals-text {
+<<<<<<< HEAD
   width:50%;
   line-height: .3px;
+=======
+  width: 50%;
+>>>>>>> master
 }
 
 .rentals-copy {
@@ -645,7 +648,10 @@ article img {
 
 table {
   width: 50%;
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
 }
 
 table, tr, th, td {
