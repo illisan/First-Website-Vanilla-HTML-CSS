@@ -468,6 +468,7 @@ body{
   font-size: 1rem;
   color:#2d2d2d;
   height: 100%;
+  width: 100%;
 }
 
 
@@ -480,12 +481,14 @@ header {
     url(images/kayak-bkgd.jpg);
   background-size: cover;
   height: 35rem;
-  background-size: 100% auto;
   width: 100%;
   display: flex;
   justify-content: center;
-  background-repeat: no-repeat;
+}
 
+img, iframe {
+   max-width: 100%; /* adhere to container width */
+   height: auto; /* make sure height scales correctly */
 }
 
 nav {
@@ -502,6 +505,7 @@ nav {
 
 nav img {
   width:18%;
+  min-width: 200px;
   margin-left: 2%;
 }
 
@@ -576,6 +580,8 @@ button {
   display: flex;
   justify-content: center;
   width: 18%;
+  /*min-width: 200px;*/
+
 }
 
 .hero-cta {
@@ -617,6 +623,7 @@ h2 {
 
 article img {
   width: 30%;
+  min-width: 240px;
   height:35%;
   box-shadow: 3px 3px 3px #888888;
 }
