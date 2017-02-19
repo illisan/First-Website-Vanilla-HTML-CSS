@@ -625,6 +625,11 @@ article img {
   display: flex;
   justify-content: space-between;
 <<<<<<< HEAD
+  margin: 0 1rem;
+  margin: 0 2rem;
+
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -644,16 +649,23 @@ article img {
 =======
 
 >>>>>>> master
+<<<<<<< HEAD
 =======
   margin: 0 1rem;
   margin: 0 2rem;
 
+>>>>>>> master
+=======
+>>>>>>> gh-pages
 >>>>>>> master
 }
 
 .rentals-text {
   width: 50%;
 <<<<<<< HEAD
+  margin-top: -1.3rem;
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -666,8 +678,12 @@ article img {
 =======
   margin-top: -1.3rem;
 >>>>>>> master
+<<<<<<< HEAD
 =======
   margin-top: -1.3rem;
+>>>>>>> master
+=======
+>>>>>>> gh-pages
 >>>>>>> master
   margin: 0 15px;
 }
