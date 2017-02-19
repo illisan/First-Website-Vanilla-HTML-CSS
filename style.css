@@ -624,34 +624,86 @@ article img {
 .rentals-items-parent {
   display: flex;
   justify-content: space-between;
+<<<<<<< HEAD
   margin: 0 1rem;
   margin: 0 2rem;
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+  margin: 0 2rem;
+=======
+  margin: 0 1rem;
+>>>>>>> master
+=======
+=======
+>>>>>>> master
+  margin: 0 1rem;
+  margin: 0 2rem;
+<<<<<<< HEAD
+>>>>>>> gh-pages
+>>>>>>> master
+=======
+
+>>>>>>> master
+>>>>>>> gh-pages
 }
 
 .rentals-text {
   width: 50%;
+<<<<<<< HEAD
   margin-top: -1.3rem;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  margin-top: -1.3rem;
+=======
+>>>>>>> master
+>>>>>>> master
+=======
+=======
+  margin-top: -1.3rem;
+>>>>>>> master
+>>>>>>> gh-pages
   margin: 0 15px;
 }
 
 .rentals-text {
   width: 50%;
 >>>>>>> master
+<<<<<<< HEAD
+=======
+  margin-top: -1.3rem;
+>>>>>>> master
+=======
 >>>>>>> gh-pages
+>>>>>>> master
 }
 
 .rentals-copy {
   text-align: left;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
   line-height: 1.8rem;
 =======
+>>>>>>> master
 <<<<<<< HEAD
   line-height: 25px;
 =======
   line-height: 2.2rem;
 >>>>>>> master
+<<<<<<< HEAD
+=======
+  line-height: 1.8rem;
+>>>>>>> master
+=======
 >>>>>>> gh-pages
+>>>>>>> master
 }
 
 .rentals-copy a {
@@ -664,12 +716,18 @@ table {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> master
 =======
 >>>>>>> master
+<<<<<<< HEAD
+=======
+>>>>>>> master
+=======
 >>>>>>> gh-pages
+>>>>>>> master
 }
 
 table, tr, th, td {
