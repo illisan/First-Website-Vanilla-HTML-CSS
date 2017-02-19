@@ -624,21 +624,14 @@ article img {
 .rentals-items-parent {
   display: flex;
   justify-content: space-between;
-<<<<<<< HEAD
   margin: 0 1rem;
-=======
-<<<<<<< HEAD
   margin: 0 2rem;
->>>>>>> gh-pages
+
 }
 
 .rentals-text {
   width: 50%;
-<<<<<<< HEAD
   margin-top: -1.3rem;
-=======
->>>>>>> master
-=======
   margin: 0 15px;
 }
 
