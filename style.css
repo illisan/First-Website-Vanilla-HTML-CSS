@@ -531,7 +531,8 @@ nav a:hover {
   font-size: .86rem;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px)and (min-width: 1140px),
+(max-width: 480px) {
    nav {
       display: flex;
       flex-direction: column;
@@ -601,7 +602,8 @@ button {
   text-transform: uppercase;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 600px)and (min-width: 1140px),
+(max-width: 480px) {
    h1 {
       font-size: 2.5rem;
       letter-spacing: .1rem;
@@ -650,6 +652,29 @@ article img {
   min-width: 240px;
   height:35%;
   box-shadow: 3px 3px 3px #888888;
+}
+
+@media screen and (max-width: 600px)and (min-width: 1140px),
+(max-width: 480px) {
+
+   .about-text {
+     letter-spacing: .02rem;
+     line-height: 2rem;
+     margin-left: 1rem;
+     margin-right: 1rem;
+     text-align: center;
+   }
+   .content-images {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+   }
+   article img {
+     width: 95%;
+     height:35%;
+     box-shadow: 3px 3px 3px #888888;
+     padding-bottom: 20px;
+   }
 }
 
 .rentals-items-parent {
@@ -717,18 +742,6 @@ article img {
 >>>>>>> gh-pages
 >>>>>>> master
   margin: 0 15px;
-}
-
-.rentals-text {
-  width: 50%;
->>>>>>> master
-<<<<<<< HEAD
-=======
-  margin-top: -1.3rem;
->>>>>>> master
-=======
->>>>>>> gh-pages
->>>>>>> master
 }
 
 .rentals-copy {
@@ -804,12 +817,45 @@ th {
   background-color: #e6e6e6;
 }
 
+@media screen and (max-width: 600px)and (min-width: 1140px),
+(max-width: 480px) {
+
+   .rentals-items-parent {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+   }
+   .rentals-text {
+     width: 95%;
+   }
+   .rentals-copy {
+     text-align: left;
+     line-height: 2rem;
+   }
+   table {
+     width: 95%;
+   }
+}
+
 article iframe {
   width: 93%;
   height: 18.75rem;
   border: none;
   margin-left: 2.187rem;
   margin-bottom: 2.187rem;
+}
+
+@media screen and (max-width: 600px)and (min-width: 1140px),
+(max-width: 480px) {
+
+  article iframe {
+    width: 100%;
+    margin-left: 0;
+    margin-bottom:70px;
+  }
+  .location-text {
+    line-height: 2rem;
+  }
 }
 
 footer {
@@ -857,4 +903,27 @@ div p a:hover {
 
 footer p {
   text-align: left;
+}
+
+@media screen and (max-width: 600px)and (min-width: 1140px),
+(max-width: 480px) {
+
+  footer ul {
+    margin-left: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  footer {
+    width: 100%;
+    height: 20rem;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+  }
+  span {
+    display: none;
+    }
+
+
 }
