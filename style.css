@@ -539,6 +539,7 @@ nav a:hover {
      flex:1 1 auto;
      text-align:center;
      margin:20px;
+     padding-right: 20px;
    }
 }
 
@@ -593,7 +594,6 @@ button {
   justify-content: center;
   width: 18%;
   /*min-width: 200px;*/
-
 }
 
 .hero-cta {
@@ -601,12 +601,13 @@ button {
   text-decoration: none;
   font-family: KarlaRegular;
   text-transform: uppercase;
+  text-align: center;
 }
 
 @media screen and (max-width: 600px)and (min-width: 1140px),
 (max-width: 480px) {
    h1 {
-      font-size: 2.5rem;
+      font-size: 2.8rem;
       letter-spacing: .1rem;
    }
    .hero-subheader {
@@ -617,6 +618,7 @@ button {
      min-width: 200px;
      justify-content: center;
    }
+
 }
 
 p {
@@ -675,7 +677,9 @@ article img {
      width: 95%;
      height:35%;
      box-shadow: 3px 3px 3px #888888;
-     padding-bottom: 20px;
+     flex:1 1 auto;
+     text-align:center;
+     margin:10px;
    }
 }
 
@@ -828,7 +832,7 @@ th {
      align-items: center;
    }
    .rentals-text {
-     width: 95%;
+    width:95%;
    }
    .rentals-copy {
      text-align: left;
