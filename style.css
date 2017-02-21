@@ -611,7 +611,6 @@ button {
    .hero-cta {
      text-align: center;
    }
-
 }
 
 p {
@@ -654,11 +653,6 @@ article img {
 @media screen and (max-width: 600px)and (min-width: 1140px),
 (max-width: 480px) {
 
-  section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-   }
    .about-text {
      letter-spacing: .02rem;
      line-height: 2rem;
@@ -673,10 +667,6 @@ article img {
    }
    article img {
      width: 95%;
-     height:35%;
-     box-shadow: 3px 3px 3px #888888;
-     flex:1 1 auto;
-     text-align:center;
      margin:10px;
    }
 }
