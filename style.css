@@ -663,7 +663,6 @@ article img {
    .content-images {
      display: flex;
      flex-direction: column;
-     align-items: center;
    }
    article img {
      width: 95%;
