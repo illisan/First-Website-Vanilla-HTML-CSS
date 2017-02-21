@@ -585,12 +585,10 @@ h1 {
 button {
   background-color: #e2574c;
   border: none;
-  padding: 2% 2.5%;/*rem*/
+  padding: 1rem;
   border-radius: 1.5rem;
   display: flex;
   justify-content: center;
-  /*width: 18%;*/
-  /*min-width: 200px;*/
 }
 
 .hero-cta {
@@ -609,11 +607,6 @@ button {
    }
    .hero-subheader {
      font-size: 1.7rem;
-   }
-   button {
-     /*width:18%;*/
-     justify-content: center;
-     /*nowrap*/
    }
    .hero-cta {
      text-align: center;
