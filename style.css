@@ -653,6 +653,12 @@ article img {
 @media screen and (max-width: 600px)and (min-width: 1140px),
 (max-width: 480px) {
 
+   article {
+     flex:1 1 auto;
+     text-align:center;
+     margin:40px;
+   }
+
    .about-text {
      letter-spacing: .02rem;
      line-height: 2rem;
