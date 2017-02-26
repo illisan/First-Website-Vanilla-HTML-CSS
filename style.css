@@ -662,8 +662,8 @@ article img {
    .about-text {
      letter-spacing: .02rem;
      line-height: 2rem;
-     margin-left: 1rem;
-     margin-right: 1rem;
+     margin-left: .1rem;
+     margin-right: .1rem;
      text-align: center;
    }
    .content-images {
