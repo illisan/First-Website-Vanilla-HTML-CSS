@@ -815,7 +815,7 @@ th {
 
    .rentals-items-parent {
      flex-direction: column;
-     margin:0 -.7rem 0 .5rem;
+     margin:0 0 0 10px;
    }
    .rentals-text {
     width:95%;
