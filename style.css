@@ -646,9 +646,6 @@ article img {
 @media screen and (max-width: 600px)and (min-width: 1140px),
 (max-width: 480px) {
 
-    article {
-      margin-bottom: 160px;
-    }
    .about-text {
 <<<<<<< HEAD
      letter-spacing: .02rem;
@@ -656,6 +653,10 @@ article img {
      margin-left: .1rem;
      margin-right: .1rem;
      text-align: center;
+<<<<<<< HEAD
+=======
+     margin-bottom: 120px;
+>>>>>>> master
 =======
      margin-left: 1rem;
      margin-right: 1rem;
@@ -664,7 +665,7 @@ article img {
    .content-images {
      flex-direction: column;
      align-items: center;
-     margin: 10px 10px 10px 10px;
+     margin: 10px 10px 120px 10px;
    }
    article img {
      width: 95%;
