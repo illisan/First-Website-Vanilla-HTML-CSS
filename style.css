@@ -647,7 +647,7 @@ article img {
 (max-width: 480px) {
 
     article {
-      margin-bottom: 100px;
+      margin-bottom: 160px;
     }
    .about-text {
      margin-left: 1rem;
@@ -808,6 +808,9 @@ th {
 @media screen and (max-width: 600px)and (min-width: 1140px),
 (max-width: 480px) {
 
+   .homepage-content-rentals {
+     margin-top: 160px;
+   }
    .rentals-items-parent {
      flex-direction: column;
      margin:0 0 0 10px;
