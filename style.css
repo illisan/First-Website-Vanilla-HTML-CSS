@@ -645,17 +645,22 @@ article img {
 
 @media screen and (max-width: 600px)and (min-width: 1140px),
 (max-width: 480px) {
-
+    article {
+    margin-bottom: 120px;
+    }
    .about-text {
 <<<<<<< HEAD
      letter-spacing: .02rem;
      line-height: 2rem;
      margin-left: .1rem;
      margin-right: .1rem;
+<<<<<<< HEAD
      text-align: center;
 <<<<<<< HEAD
 =======
      margin-bottom: 120px;
+>>>>>>> master
+=======
 >>>>>>> master
 =======
      margin-left: 1rem;
@@ -817,9 +822,6 @@ th {
 @media screen and (max-width: 600px)and (min-width: 1140px),
 (max-width: 480px) {
 
-   .homepage-content-rentals {
-     margin-top: 160px;
-   }
    .rentals-items-parent {
      flex-direction: column;
      margin:0 0 0 10px;
