@@ -646,6 +646,9 @@ article img {
 @media screen and (max-width: 600px)and (min-width: 1140px),
 (max-width: 480px) {
 
+    article {
+      margin-bottom: 100px;
+    }
    .about-text {
      margin-left: 1rem;
      margin-right: 1rem;
