@@ -489,10 +489,9 @@ nav {
   /*list-style-type: none;*/
   display: flex;
   justify-content: space-between;
-  height: 8%;
+  height: 3rem;
   background-color: black;
   position: fixed;
-  top:0;
   width:100%
 }
 
@@ -542,7 +541,6 @@ nav a:hover {
 
 
 .hero-text {
-  text-align: center;
   color: #FFF;
   line-height: 100%;
   display:flex;
@@ -554,9 +552,6 @@ nav a:hover {
 .hero-text-initial {
   font-family: KarlaRegular;
   text-transform: uppercase;
-  display: flex;
-  justify-content: center;
-  margin-top: 10%;
 }
 
 h1 {
@@ -587,8 +582,6 @@ button {
   border: none;
   padding: 1rem;
   border-radius: 1.5rem;
-  display: flex;
-  justify-content: center;
 }
 
 .hero-cta {
@@ -654,18 +647,17 @@ article img {
 (max-width: 480px) {
 
    .about-text {
-     letter-spacing: .02rem;
-     line-height: 2rem;
      margin-left: 1rem;
      margin-right: 1rem;
-     text-align: center;
    }
    .content-images {
      flex-direction: column;
+     align-items: center;
+     margin: 10px 10px 10px 10px;
    }
    article img {
      width: 95%;
-     margin:10px;
+     margin: 10px;
    }
 }
 
