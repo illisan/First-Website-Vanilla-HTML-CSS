@@ -822,6 +822,9 @@ th {
 @media screen and (max-width: 600px)and (min-width: 1140px),
 (max-width: 480px) {
 
+   .homepage-content-rentals {
+     margin-bottom: 100px;
+   }
    .rentals-items-parent {
      flex-direction: column;
      margin:0 0 0 10px;
@@ -842,12 +845,13 @@ article iframe {
   height: 18.75rem;
   width:100%;
   border: none;
-  margin-bottom: 2.187rem;
 }
 
 @media screen and (max-width: 600px)and (min-width: 1140px),
 (max-width: 480px) {
-
+  .homepage-content-location {
+    margin-bottom: 50px;
+  }
   .location-text {
     line-height: 2rem;
   }
